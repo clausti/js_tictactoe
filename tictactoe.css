@@ -1,0 +1,43 @@
+body {
+	box-sizing: border-box;
+}
+
+.board {
+	background-color: gray;
+	height: 500px;
+	width: 500px;
+}
+
+.square {
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: gray;
+	float: left;
+	height: 32%;
+	width: 32%;
+}
+
+.square-red {
+	background-color: red;
+	border-style: solid;
+	border-width: 2px;
+	border-color: gray;
+	float: left;
+	height: 32%;
+	width: 32%;
+}
+
+.square-blue {
+	background-color: blue;
+	border-style: solid;
+	border-width: 2px;
+	border-color: gray;
+	float: left;
+	height: 32%;
+	width: 32%;
+}
+
+.marquee {
+	font-size: 40pt;
+}
